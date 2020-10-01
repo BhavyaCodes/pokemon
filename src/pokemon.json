@@ -7,10 +7,206 @@
     "types": ["grass", "poison"]
   },
   {
+    "id": 2,
+    "name": "Ivysaur",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+    "weight": 28,
+    "types": ["grass", "poison"]
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "weight": 220,
+    "types": ["grass", "poison"]
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "weight": 18,
+    "types": ["fire"]
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "weight": 41,
+    "types": ["fire"]
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "weight": 199,
+    "types": ["fire", "flying"]
+  },
+  {
+    "id": 7,
+    "name": "Squirtle ",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "weight": 19,
+    "types": ["water"]
+  },
+  {
+    "id": 8,
+    "name": "Blastoise",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "weight": 49,
+    "types": ["water"]
+  },
+  {
+    "id": 9,
+    "name": "Wartortle",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "weight": 188,
+    "types": ["water"]
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+    "weight": 6,
+    "types": ["bug"]
+  },
+  {
+    "id": 11,
+    "name": "Metapod",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+    "weight": 21,
+    "types": ["bug"]
+  },
+  {
+    "id": 12,
+    "name": "Butterfree",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+    "weight": 70,
+    "types": ["bug","flying"]
+  },
+  {
+    "id": 13,
+    "name": "Weedle",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+    "weight": 7,
+    "types": ["bug","posion"]
+  },
+  {
+    "id": 14,
+    "name": "Kakuna",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+    "weight": 22,
+    "types": ["bug","posion"]
+  },
+  {
+    "id": 15,
+    "name": "Beedrill",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+    "weight": 65,
+    "types": ["bug","posion"]
+  },
+  {
+    "id": 16,
+    "name": "Pidgey",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+    "weight": 4,
+    "types": ["normal","flying"]
+  },
+  {
+    "id": 17,
+    "name": "Pidgeotto",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+    "weight": 66,
+    "types": ["normal","flying"]
+  },
+  {
+    "id": 18,
+    "name": "Pidgeot",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+    "weight": 87,
+    "types": ["normal","flying"]
+  },
+  {
+    "id": 19,
+    "name": "Rattata",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+    "weight": 7,
+    "types": ["normal"]
+  },
+  {
+    "id": 20,
+    "name": "raticate",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+    "weight": 40,
+    "types": ["normal"]
+  },
+  {
+    "id": 21,
+    "name": "Spearow",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+    "weight": 4,
+    "types": ["normal","flying"]
+  },
+  {
+    "id": 22,
+    "name": "Fearow",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+    "weight": 40,
+    "types": ["normal","flying"]
+  },
+  {
+    "id": 23,
+    "name": "Ekans",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+    "weight": 15,
+    "types": ["posion"]
+  },
+  {
+    "id": 24,
+    "name": "Arbok",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+    "weight": 143,
+    "types": ["posion"]
+  },
+  {
     "id": 25,
     "name": "pikachu",
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
     "weight": 60,
     "types": ["electric"]
-  }
+  },
+  {
+    "id": 26,
+    "name": "Raichu",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+    "weight": 66,
+    "types": ["electric"]
+  },
+  {
+    "id": 27,
+    "name": "Sandshrew",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+    "weight": 26,
+    "types": ["ground"]
+  },
+  {
+    "id": 28,
+    "name": "Sandslash",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+    "weight": 65,
+    "types": ["ground"]
+  },
+  {
+    "id": 29,
+    "name": "Nidoran",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+    "weight": 15,
+    "types": ["posion"]
+  },
+  {
+    "id": 30,
+    "name": "Nidorina",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+    "weight": 44,
+    "types": ["posion"]
+  },
 ]
