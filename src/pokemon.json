@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": 1,
         "name": "bulbasaur",
         "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
