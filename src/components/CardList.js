@@ -23,7 +23,7 @@ function CardList() {
   const sortedPokemonList = pokemonList.sort(pokemonComparator);
 
   return (
-    <div className="row row-cols-1 row-cols-md-3">
+    <div className="row row-cols-1 row-cols-md-3 mt-3">
       {sortedPokemonList.map((pokemon) => (
         <PokeCard key={pokemon.id} pokemon={pokemon} />
       ))}
