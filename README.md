@@ -1,3 +1,9 @@
+# Pokemon react app - https://pokemon-hacktoberfest.vercel.app/
+
+# How to contribute -
+
+- Check the issues tab and pick an issue
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
