@@ -21,6 +21,13 @@
     "types": ["water", "flying"]
   },
   {
+    "id": 43,
+    "name": "oddish",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+    "weight": 54,
+    "types": ["grass", "poison"]
+  },
+  {
     "id": 129,
     "name": "magikarp",
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
