@@ -209,4 +209,81 @@
     "weight": 44,
     "types": ["posion"]
   },
+  {
+    "id": 31,
+    "name": "Nidoqueen",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+    "weight": 132,
+    "types": ["posion","ground"]
+  },
+  {
+    "id": 32,
+    "name": "Nidoran",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+    "weight": 19,
+    "types": ["psychic","ground"]
+  },
+  {
+    "id": 32,
+    "name": "Nidoran",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+    "weight": 19,
+    "types": ["psychic","ground"]
+  },
+  {
+    "id": 33,
+    "name": "Nidorino",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+    "weight": 43,
+    "types": ["posion"]
+  },
+  {
+    "id": 34,
+    "name": "Nidoking",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+    "weight": 136,
+    "types": ["posion"]
+  },
+  {
+    "id": 35,
+    "name": "Clefairy",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+    "weight": 16,
+    "types": ["fairy"]
+  },
+  {
+    "id": 36,
+    "name": "Clefable",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+    "weight": 88,
+    "types": ["fairy"]
+  },
+  {
+    "id": 37,
+    "name": "Vulpix",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+    "weight": 21,
+    "types": ["fire"]
+  },
+  {
+    "id": 38,
+    "name": "Ninetales",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+    "weight": 43,
+    "types": ["fire"]
+  },
+  {
+    "id": 39,
+    "name": "Jigglypuff",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "weight": 12,
+    "types": ["normal","fairy"]
+  },
+  {
+    "id": 40,
+    "name": "Wigglytuff",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+    "weight": 26,
+    "types": ["normal","fairy"]
+  }
 ]
