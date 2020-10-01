@@ -2,6 +2,7 @@ import React from "react";
 
 import Header from "./Header";
 import CardList from "./CardList";
+import Footer from './Footer'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="container">
         <CardList />
       </div>
+      <Footer />
     </div>
   );
 }
