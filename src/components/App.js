@@ -1,15 +1,16 @@
 import React from "react";
 
+import { Switch,Route} from 'react-router-dom';
 import Header from "./Header";
-import CardList from "./CardList";
+import Homepage from '../pages/homepage/homepage.jsx';
 
-function App() {
+const App=()=>{
   return (
     <div className="App">
       <Header />
-      <div className="container">
-        <CardList />
-      </div>
+      <Switch>
+       <Route exact path='/' component={Homepage} />
+      </Switch>
     </div>
   );
 }
