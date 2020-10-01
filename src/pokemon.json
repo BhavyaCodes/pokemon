@@ -4,7 +4,7 @@
     "name": "bulbasaur",
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
     "weight": 69,
-    "types": ["grass"]
+    "types": ["grass", "poison"]
   },
   {
     "id": 25,
