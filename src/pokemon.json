@@ -32,7 +32,7 @@
     "name": "Abra",
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
     "weight": 19.5,
-    "types": ["psychic"],
+    "types": ["psychic"]
   },
   {
     "id": 12,
