@@ -44,7 +44,7 @@
   {
     "id": 77,
     "name": "ponyta",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77  .png",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
     "weight": 300,
     "types": ["fire"]
   }
