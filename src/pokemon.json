@@ -54,5 +54,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
     "weight": 300,
     "types": ["fire"]
+  },
+  {
+    "id": 4,
+    "name": "charmander",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "weight": 85,
+    "types": ["fire"]
   }
 ]
