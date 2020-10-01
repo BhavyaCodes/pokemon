@@ -14,6 +14,12 @@ function CardList() {
     return Math.sign(firstPokemon.id - secondPokemon.id);
   };
 
+  /**
+   * Following a functional programming principle here which states that
+   * we should not mutate objects in any way.
+   *
+   * Refer this : https://www.learningjournal.guru/article/scala/functional-programming/immutability-in-functional-programming/
+   */
   const sortedPokemonList = pokemonList.sort(pokemonComparator);
 
   return (
