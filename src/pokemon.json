@@ -61,5 +61,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
     "weight": 85,
     "types": ["fire"]
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+    "weight": 19.5,
+    "types": ["psychic"]
   }
 ]
