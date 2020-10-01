@@ -1,72 +1,79 @@
 [
-  {
-    "id": 1,
-    "name": "bulbasaur",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-    "weight": 69,
-    "types": ["grass", "poison"]
-  },
-  {
-    "id": 25,
-    "name": "pikachu",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-    "weight": 60,
-    "types": ["electric"]
-  },
-  {
-    "id": 130,
-    "name": "gyarados",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/146c91287ad01f6e15315bbd733fd7442c91fe6d/sprites/pokemon/130.png",
-    "weight": 2350,
-    "types": ["water", "flying"]
-  },
-  {
-    "id": 43,
-    "name": "oddish",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
-    "weight": 54,
-    "types": ["grass", "poison"]
-  },
-  {
-    "id": 129,
-    "name": "magikarp",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
-    "weight": 100,
-    "types": ["water"]
-  },
-  {
-    "id": 12,
-    "name": "butterfree",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
-    "weight": 320,
-    "types": ["flying"]
-  },
-  {
-    "id": 150,
-    "name": "mewtwo",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
-    "weight": 122,
-    "types": ["psychic"]
-  },
-  {
-    "id": 77,
-    "name": "ponyta",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
-    "weight": 300,
-    "types": ["fire"]
-  },
-  {
-    "id": 4,
-    "name": "charmander",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
-    "weight": 85,
-    "types": ["fire"]
-  },
-  {
-    "id": 63,
-    "name": "Abra",
-    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
-    "weight": 19.5,
-    "types": ["psychic"]
-  }
+    {
+        "id": 1,
+        "name": "bulbasaur",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "weight": 69,
+        "types": ["grass", "poison"]
+    },
+    {
+        "id": 25,
+        "name": "pikachu",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+        "weight": 60,
+        "types": ["electric"]
+    },
+    {
+        "id": 130,
+        "name": "gyarados",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/146c91287ad01f6e15315bbd733fd7442c91fe6d/sprites/pokemon/130.png",
+        "weight": 2350,
+        "types": ["water", "flying"]
+    },
+    {
+        "id": 43,
+        "name": "oddish",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+        "weight": 54,
+        "types": ["grass", "poison"]
+    },
+    {
+        "id": 129,
+        "name": "magikarp",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+        "weight": 100,
+        "types": ["water"]
+    },
+    {
+        "id": 12,
+        "name": "butterfree",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+        "weight": 320,
+        "types": ["flying"]
+    },
+    {
+        "id": 150,
+        "name": "mewtwo",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+        "weight": 122,
+        "types": ["psychic"]
+    },
+    {
+        "id": 77,
+        "name": "ponyta",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+        "weight": 300,
+        "types": ["fire"]
+    },
+    {
+        "id": 4,
+        "name": "charmander",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "weight": 85,
+        "types": ["fire"]
+    },
+    {
+        "id": 63,
+        "name": "Abra",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+        "weight": 19.5,
+        "types": ["psychic"]
+    },
+    {
+        "id": 356,
+        "name": "Dusclops",
+        "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/356.png",
+        "weight": 67.5,
+        "types": ["ghost"]
+    }
 ]
