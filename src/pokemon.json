@@ -26,5 +26,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
     "weight": 100,
     "types": ["water"]
+  },
+  {
+    "id": 63,
+    "name": "Abra",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+    "weight": 19.5,
+    "types": ["psychic"]
   }
 ]
