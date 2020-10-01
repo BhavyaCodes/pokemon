@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "bulbasaur",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "weight": 69,
+    "types": ["grass", "poison"]
+  },
+  {
+    "id": 25,
+    "name": "pikachu",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "weight": 60,
+    "types": ["electric"]
+  }
+]
