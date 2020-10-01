@@ -33,5 +33,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
     "weight": 320,
     "types": ["flying"]
+  },
+  {
+    "id": 150,
+    "name": "mewtwo",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "weight": 122,
+    "types": ["psychic"]
   }
 ]
