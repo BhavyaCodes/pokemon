@@ -47,5 +47,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
     "weight": 122,
     "types": ["psychic"]
+  },
+  {
+    "id": 77,
+    "name": "ponyta",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+    "weight": 300,
+    "types": ["fire"]
   }
 ]
