@@ -30,7 +30,7 @@
   {
     "id": 12,
     "name": "butterfree",
-    "imageUrl": "",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
     "weight": 320,
     "types": ["flying"]
   }
