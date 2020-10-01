@@ -1,10 +1,24 @@
 import React from "react";
 import pokemonList from "../pokemon.json";
 import PokeCard from "./PokeCard";
+
 function CardList() {
+  /**
+   * This function sorts pokemons by their ids in ascending order
+   */
+
+  const pokemonComparator = (firstPokemon, secondPokemon) => {
+    /**
+     * Math.sign() return -1, 0 or 1 *only* for any signed integer
+     */
+    return Math.sign(firstPokemon.id - secondPokemon.id);
+  };
+
+  const sortedPokemonList = pokemonList.sort(pokemonComparator);
+
   return (
-    <div class="row row-cols-1 row-cols-md-3">
-      {pokemonList.map((pokemon) => (
+    <div className="row row-cols-1 row-cols-md-3">
+      {sortedPokemonList.map((pokemon) => (
         <PokeCard key={pokemon.id} pokemon={pokemon} />
       ))}
     </div>

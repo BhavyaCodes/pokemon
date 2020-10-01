@@ -11,7 +11,7 @@ function PokeCard({ pokemon }) {
   };
 
   return (
-    <div class="col mb-4">
+    <div className="col mb-4">
       <div className="card">
         <img
           src={pokemon.imageUrl}
