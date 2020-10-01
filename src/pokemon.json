@@ -26,5 +26,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
     "weight": 100,
     "types": ["water"]
+  },
+  {
+    "id": 12,
+    "name": "butterfree",
+    "imageUrl": "",
+    "weight": 320,
+    "types": ["flying"]
   }
 ]
