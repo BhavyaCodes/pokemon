@@ -17,6 +17,8 @@
 }
 
 .card:hover {
+  color: black;
+  font: bold;
   background-color: black;
   background: linear-gradient( to left, rgba(86, 200, 231, 0.8),rgba(245, 50, 50, 0.76));
   transition: .5s;
