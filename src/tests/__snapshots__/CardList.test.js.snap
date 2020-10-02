@@ -1,0 +1,391 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CardList component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="row row-cols-1 row-cols-md-3 mt-3"
+  >
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="bulbasaur"
+          class="card-img-top"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            bulbasaur
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-grass mx-1"
+              data-testid="pokemon-type-grass"
+            >
+              grass
+            </span>
+            <span
+              class="badge badge-pill badge-poison mx-1"
+              data-testid="pokemon-type-poison"
+            >
+              poison
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="charmander"
+          class="card-img-top"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            charmander
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-fire mx-1"
+              data-testid="pokemon-type-fire"
+            >
+              fire
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="butterfree"
+          class="card-img-top"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            butterfree
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-flying mx-1"
+              data-testid="pokemon-type-flying"
+            >
+              flying
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="pikachu"
+          class="card-img-top"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            pikachu
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-electric mx-1"
+              data-testid="pokemon-type-electric"
+            >
+              electric
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="oddish"
+          class="card-img-top"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            oddish
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-grass mx-1"
+              data-testid="pokemon-type-grass"
+            >
+              grass
+            </span>
+            <span
+              class="badge badge-pill badge-poison mx-1"
+              data-testid="pokemon-type-poison"
+            >
+              poison
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="Abra"
+          class="card-img-top"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            Abra
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-psychic mx-1"
+              data-testid="pokemon-type-psychic"
+            >
+              psychic
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="ponyta"
+          class="card-img-top"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            ponyta
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-fire mx-1"
+              data-testid="pokemon-type-fire"
+            >
+              fire
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="magikarp"
+          class="card-img-top"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            magikarp
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-water mx-1"
+              data-testid="pokemon-type-water"
+            >
+              water
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="gyarados"
+          class="card-img-top"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/146c91287ad01f6e15315bbd733fd7442c91fe6d/sprites/pokemon/130.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            gyarados
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-water mx-1"
+              data-testid="pokemon-type-water"
+            >
+              water
+            </span>
+            <span
+              class="badge badge-pill badge-flying mx-1"
+              data-testid="pokemon-type-flying"
+            >
+              flying
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="mewtwo"
+          class="card-img-top"
+          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            mewtwo
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-psychic mx-1"
+              data-testid="pokemon-type-psychic"
+            >
+              psychic
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col mb-4"
+    >
+      <div
+        class="card"
+        tabindex="0"
+      >
+        <img
+          alt="Dusclops"
+          class="card-img-top"
+          src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/356.png"
+        />
+        <div
+          class="card-body"
+        >
+          <h5
+            class="card-title text-center"
+          >
+            Dusclops
+          </h5>
+          <p
+            class="card-text text-center"
+          >
+            <span
+              class="badge badge-pill badge-ghost mx-1"
+              data-testid="pokemon-type-ghost"
+            >
+              ghost
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
