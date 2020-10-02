@@ -2,7 +2,7 @@ import React from "react";
 import pokemonList from "../pokemon.json";
 import PokeCard from "./PokeCard";
 
-function CardList() {
+function CardList({searchQuery}) {
   /**
    * This function sorts pokemons by their ids in ascending order
    */
@@ -24,7 +24,7 @@ function CardList() {
 
   return (
     <div className="row row-cols-1 row-cols-md-3 mt-3">
-      {sortedPokemonList.map((pokemon) => (
+      {sortedPokemonList.filter(pokemon => pokemon.name.includes(searchQuery)).map((pokemon) => (
         <PokeCard key={pokemon.id} pokemon={pokemon} />
       ))}
     </div>
