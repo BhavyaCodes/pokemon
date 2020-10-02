@@ -16,3 +16,15 @@ it("renders PokeCard component without crashing", () => {
   const { asFragment } = render(<PokeCard pokemon={mockPokemon} />);
   expect(asFragment()).toMatchSnapshot();
 });
+
+it("renders PokeCard component without types if not passed", () => {
+  const mockPokemon = {
+    id: 1,
+    name: "Mock Pokemon Name",
+    imageUrl: "mock-url",
+    weight: 1000,
+  };
+
+  const { asFragment } = render(<PokeCard pokemon={mockPokemon} />);
+  expect(asFragment()).toMatchSnapshot();
+});

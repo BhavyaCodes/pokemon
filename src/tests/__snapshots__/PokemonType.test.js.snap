@@ -10,3 +10,5 @@ exports[`renders PokemonType component without crashing 1`] = `
   </span>
 </DocumentFragment>
 `;
+
+exports[`renders null if type is not defined 1`] = `<DocumentFragment />`;

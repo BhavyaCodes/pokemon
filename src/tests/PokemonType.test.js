@@ -11,3 +11,8 @@ it("renders PokemonType component without crashing", () => {
   expect(asFragment()).toMatchSnapshot();
   expect(getByTestId("pokemon-type-normal")).toHaveTextContent("normal");
 });
+
+it("renders null if type is not defined", () => {
+  const { asFragment } = render(<PokemonType />);
+  expect(asFragment()).toMatchSnapshot();
+});
