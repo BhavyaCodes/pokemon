@@ -2,9 +2,26 @@
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   cursor: pointer;
+  border-radius: 1rem;
+  outline-style: none;
+  background: linear-gradient( to right, rgba(86, 200, 231, 0.9),rgba(245, 50, 50, 0.9));
+
 }
 
 .card:hover{
-     transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  transform: scale(1.05);
+
+}
+.gridbox {
+  padding: 3rem;
+}
+
+.card:hover {
+  background-color: black;
+  background: linear-gradient( to left, rgba(86, 200, 231, 0.8),rgba(245, 50, 50, 0.76));
+  transition: .5s;
+}
+.card:active{
+  transition-delay: .1ms;
+  border: 5px solid rgb(3, 0, 10);
 }

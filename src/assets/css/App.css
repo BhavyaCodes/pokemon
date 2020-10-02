@@ -1,0 +1,12 @@
+body {
+    background: url('../background-img.jpg') no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+@media all and (max-width: 960px){
+    body{
+        background-size: 140% 100%;
+    }
+}
