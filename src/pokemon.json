@@ -145,5 +145,33 @@
         "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
         "weight": 2200,
         "types": ["water-absorb","shell-armor","hydration"]
+    },
+    {
+        "id": 796,
+        "name": "xurkitree",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png",
+        "weight": 1000,
+        "types": ["electric"]
+    },
+    {
+        "id": 758,
+        "name": "salazzle",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
+        "weight": 222,
+        "types": ["poison", "fire"]
+    },
+    {
+        "id": 384,
+        "name": "rayquaza",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
+        "weight": 2065,
+        "types": ["dragon", "flying"]
+    },
+    {
+        "id": 748,
+        "name": "toxapex",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
+        "weight": 145,
+        "types": ["poison", "water"]
     }
 ]
