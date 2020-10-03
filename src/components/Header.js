@@ -31,7 +31,9 @@ function Header({ searchQuery, setSearchQuery }) {
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
           />
-          <button className="btn btn-outline-light">Search</button>
+          <button type="submit" className="btn btn-outline-light">
+            Search
+          </button>
         </form>
       </div>
     </nav>
