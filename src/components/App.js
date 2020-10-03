@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
-import Header from "./Header";
-import CardList from "./CardList";
-import Footer from './Footer'
+import { Header, CardList, Footer } from "../components";
 
 function App() {
   const [searchQuery, setQuery] = useState("");

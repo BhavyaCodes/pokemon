@@ -1,7 +1,7 @@
-import React from 'react';
-import footerStyle from '../assets/css/footerStyle.css'
-import logo from '../assets/pokemon_logo.png';
-import githubLogo from '../assets/github-logo.png';
+import React from "react";
+import footerStyle from "../assets/css/footerStyle.css"
+import logo from "../assets/pokemon_logo.png";
+import githubLogo from "../assets/github-logo.png";
 
 
 function Footer() {
@@ -19,7 +19,7 @@ function Footer() {
                 </div>
             </div>
         </div>
-    )
+    );
 
 }
 
