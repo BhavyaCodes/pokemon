@@ -183,7 +183,7 @@
   },
   {
     "id": 74,
-    "name": "geodud",
+    "name": "geodude",
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
     "weight": 20,
     "types": ["rock", "ground"]
