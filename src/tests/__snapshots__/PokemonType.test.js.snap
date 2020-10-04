@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PokemonType component without crashing 1`] = `
+<DocumentFragment>
+  <span
+    class="badge badge-pill badge-normal mx-1"
+    data-testid="pokemon-type-normal"
+  >
+    normal
+  </span>
+</DocumentFragment>
+`;
+
+exports[`renders null if type is not defined 1`] = `<DocumentFragment />`;

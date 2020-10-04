@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Footer component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="footer"
+  >
+    <div
+      class="footer-logo"
+    >
+      <img
+        alt="logo"
+        height="40px"
+        src="pokemon_logo.png"
+        width="100px"
+      />
+    </div>
+    <div
+      class="logo-container"
+    >
+      <div
+        class="github-logo"
+      >
+        <a
+          href="https://github.com/Juggernaut9/pokemon"
+        >
+          <img
+            alt="logo"
+            height="35px"
+            src="github-logo.png"
+            width="35px"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
