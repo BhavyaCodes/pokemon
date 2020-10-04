@@ -1,7 +1,19 @@
-.card{
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 247);
+}
+
+.card {
+  border: none;
+  outline: none;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   cursor: pointer;
+  text-transform: capitalize;
+
   border-radius: 1rem;
   outline-style: none;
   background: linear-gradient( to right, rgba(86, 200, 231, 0.9),rgba(245, 50, 50, 0.9));

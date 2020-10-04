@@ -1,17 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
-import Header from "./Header";
-import CardList from "./CardList";
-import Footer from './Footer'
+
+import { Header, CardList, Footer } from "../components";
 import Appcss from '../assets/css/App.css';
-// import Bgimage from '../assets/background-image.jpg'
 
 function App() {
+  const [searchQuery, setQuery] = useState("");
+
   return (
     <div className="App" style={Appcss}>
-      <Header />
+      <Header searchQuery={searchQuery} setSearchQuery={setQuery} />
       <div className="container">
-        <CardList />
+        <CardList searchQuery={searchQuery} />
       </div>
       <Footer />
     </div>

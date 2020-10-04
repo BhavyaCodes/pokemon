@@ -75,5 +75,103 @@
         "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/356.png",
         "weight": 67.5,
         "types": ["ghost"]
+    },
+    {
+        "id": 133,
+        "name": "Eevee",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+        "weight": 65,
+        "types": ["adaptability","anticipation","run-away"]
+    },
+    {
+        "id": 143,
+        "name": "Snorlax",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+        "weight": 4600,
+        "types": ["immunity","thick-fat","gluttony"]
+    },
+    {
+        "id": 251,
+        "name": "Celebi",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/251.png",
+        "weight": 50,
+        "types": ["natural-cure"]
+    },
+    {
+        "id": 6,
+        "name": "Charizard",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "weight": 905,
+        "types": ["solar-power","blaze"]
+    },
+    {
+        "id": 132,
+        "name": "Ditto",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+        "weight": 40,
+        "types": ["imposter","limber"]
+    },
+    {
+        "id": 94,
+        "name": "Gengar",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+        "weight": 405,
+        "types": ["cursed-body"]
+    },
+    {
+        "id": 7,
+        "name": "Squirtle",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "weight": 90,
+        "types": ["rain-dish","torrent"]
+    },
+    {
+        "id": 448,
+        "name": "Lucario",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+        "weight": 540,
+        "types": ["inner-focus","justified","steadfast"]
+    },
+    {
+        "id": 282,
+        "name": "Gardevoir",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
+        "weight": 484,
+        "types": ["trace","synchronize","telepathy"]
+    },
+    {
+        "id": 131,
+        "name": "Lapras",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+        "weight": 2200,
+        "types": ["water-absorb","shell-armor","hydration"]
+    },
+    {
+        "id": 796,
+        "name": "xurkitree",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/796.png",
+        "weight": 1000,
+        "types": ["electric"]
+    },
+    {
+        "id": 758,
+        "name": "salazzle",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/758.png",
+        "weight": 222,
+        "types": ["poison", "fire"]
+    },
+    {
+        "id": 384,
+        "name": "rayquaza",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/384.png",
+        "weight": 2065,
+        "types": ["dragon", "flying"]
+    },
+    {
+        "id": 748,
+        "name": "toxapex",
+        "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/748.png",
+        "weight": 145,
+        "types": ["poison", "water"]
     }
 ]
