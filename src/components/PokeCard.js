@@ -12,15 +12,15 @@ function PokeCard({ pokemon }) {
 
   return (
     <div className="col mb-4">
-      <div className="card">
+      <div className="card" tabIndex={0}>
         <img
           src={pokemon.imageUrl}
           className="card-img-top"
           alt={pokemon.name}
         />
         <div className="card-body">
-          <h5 className="card-title">{pokemon.name}</h5>
-          <p className="card-text">{renderTypes()}</p>
+          <h5 className="card-title text-center">{pokemon.name}</h5>
+          <p className="card-text text-center">{renderTypes()}</p>
         </div>
       </div>
     </div>
