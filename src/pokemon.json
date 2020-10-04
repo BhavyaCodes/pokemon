@@ -55,11 +55,11 @@
     "weight": 300,
     "types": ["fire"]
   },
-    {
+  {
         "id":50,
         "name":"Diglett",
         "imageUrl":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
         "weight":8,
         "types":["ground"]
-    }
+  }
 ]
