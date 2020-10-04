@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/css/badgeStyles.css";
 
 import pokemonTypeToClassname from "../constants/pokemonTypeToClassname";
 

@@ -1,11 +1,10 @@
 import React from "react";
-import logo from '../assets/pokemon_logo.png';
+import logo from "../assets/pokemon_logo.png";
 
-function Header() {
+function Header({ searchQuery, setSearchQuery }) {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-
-        <img src={logo} alt="logo" width="180px" height="50px"/>
+      <img src={logo} alt="logo" width="180px" height="50px" />
 
       <button
         type="button"
@@ -22,6 +21,8 @@ function Header() {
             type="text"
             className="form-control mr-sm-2"
             placeholder="Search"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
           />
           <button type="submit" className="btn btn-outline-light">
             Search

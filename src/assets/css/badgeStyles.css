@@ -1,0 +1,54 @@
+.badge-pill {
+    color: #fff;
+}
+.badge-normal {
+    background-color: #A8A878;
+}
+.badge-fighting {
+    background-color: #FF501F;
+}  
+.badge-flying {
+    background-color: #A890F0;
+}  
+.badge-poison {
+    background-color: #A040A0;
+} 
+.badge-ground {
+    background-color: #E0C068;
+} 
+.badge-rock {
+    background-color: #B8A038;
+} 
+.badge-ghost {
+    background-color: #705898;
+}  
+.badge-steel {
+    background-color: #B8B8D0;
+} 
+.badge-fire {
+    background-color: #F08030;
+}  
+.badge-water {
+    background-color: #6890F0;
+}  
+.badge-grass {
+    background-color: #7DB808;
+}  
+.badge-electric {
+    background-color: #F8D030;
+}  
+.badge-psychic {
+    background-color: #F85888;
+} 
+.badge-dragon {
+    background-color: #7038F8;
+} 
+.badge-dark {
+    background-color: #705848;
+}  
+.badge-unknown {
+    background-color: #68A090;
+}  
+.badge-shadow {
+    background-color: #8a795d ;
+}  
