@@ -3,7 +3,7 @@ import "../assets/css/badgeStyles.css";
 
 import pokemonTypeToClassname from "../constants/pokemonTypeToClassname";
 
-function PokemonType({ type }) {
+const PokemonType = ({ type }) => {
   const getClassName = () => {
     return pokemonTypeToClassname[type] || "badge badge-pill badge-info mx-1";
   };
@@ -12,6 +12,6 @@ function PokemonType({ type }) {
     return null;
   }
   return <span className={getClassName()}>{type}</span>;
-}
+};
 
 export default PokemonType;
