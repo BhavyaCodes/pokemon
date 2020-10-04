@@ -16,7 +16,7 @@ function Header({ searchQuery, setSearchQuery }) {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarCollapse">
-        <form className="col-lg-3 form-inline ml-auto">
+        <form className="col-md-6 col-lg-3 form-inline ml-auto">
           <input
             type="text"
             className="form-control input-large"
