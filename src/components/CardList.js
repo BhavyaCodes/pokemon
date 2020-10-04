@@ -1,35 +1,33 @@
-import React from "react";
-import pokemonList from "../pokemon.json";
+import React, { useState, useEffect } from "react";
 import PokeCard from "./PokeCard";
+import { getOriginalPokemon } from "./PokeApi";
+import axios from "axios";
+
+/**
+ * Following a functional programming principle here which states that
+ * we should not mutate objects in any way.
+ *
+ * Refer this : https://www.learningjournal.guru/article/scala/functional-programming/immutability-in-functional-programming/
+ */
 
 function CardList({ searchQuery }) {
-  /**
-   * This function sorts pokemons by their ids in ascending order
-   */
+  const [originalPokemon, setOriginalPokemon] = useState([]);
 
-  const pokemonComparator = (firstPokemon, secondPokemon) => {
-    /**
-     * Math.sign() return -1, 0 or 1 *only* for any signed integer
-     */
-    return Math.sign(firstPokemon.id - secondPokemon.id);
-  };
-
-  /**
-   * Following a functional programming principle here which states that
-   * we should not mutate objects in any way.
-   *
-   * Refer this : https://www.learningjournal.guru/article/scala/functional-programming/immutability-in-functional-programming/
-   */
-  const sortedPokemonList = pokemonList.sort(pokemonComparator);
+  // assigns the result of the pokemon query to originalPokemon state when the component mounts
+  useEffect(() => {
+    axios
+      .get(getOriginalPokemon)
+      .then(({ data }) => setOriginalPokemon(data.results));
+  }, []);
 
   return (
     <div className="row row-cols-1 row-cols-md-3 mt-3">
-      {sortedPokemonList
+      {originalPokemon
         .filter((pokemon) =>
           pokemon.name.toLowerCase().includes(searchQuery.toLowerCase())
         )
-        .map((pokemon) => (
-          <PokeCard key={pokemon.id} pokemon={pokemon} />
+        .map((pokemon, idx) => (
+          <PokeCard key={idx} pokemon={pokemon} />
         ))}
     </div>
   );
