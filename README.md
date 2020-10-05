@@ -1,5 +1,8 @@
 # Pokemon react app - https://pokemon-hacktoberfest.vercel.app/
 
+# Heroku 1 click deployment
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 # How to contribute -
 
 - Check the issues tab and pick an issue
