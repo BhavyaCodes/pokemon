@@ -13,7 +13,11 @@ const Pagination = ({ currentPage, pageSize, setCurrentPage, totalData }) => {
                 i + 1 === currentPage ? "page-item active" : "page-item"
               }
             >
-              <a onClick={() => setCurrentPage(i + 1)} className="page-link">
+              <a
+                style={{ cursor: "pointer", "user-select": "none" }}
+                onClick={() => setCurrentPage(i + 1)}
+                className="page-link"
+              >
                 {i + 1}
               </a>
             </li>
