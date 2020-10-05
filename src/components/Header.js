@@ -28,11 +28,6 @@ function Header({ searchQuery, setSearchQuery }) {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
-            <div class="input-group-append">
-              <button type="submit" class="btn btn-outline-light">
-                Search
-              </button>
-            </div>
           </div>
         </form>
       </div>
