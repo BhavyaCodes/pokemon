@@ -20,6 +20,13 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
+- We are using `jest` with `testing-library/react` to write our unit test cases.
+
+**To run test cases:**
+
+1. In the root, run command `npm test --watchAll`. This will run all unit test cases written for the components.
+2. To run the coverage report, run command `npm test -- --coverage --watchAll=false`. This will generate a code coverage report on the terminal. Ideally, it should be `100%` for all the React components.
+
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 

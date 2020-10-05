@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Header component without crashing 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar navbar-expand-md navbar-dark bg-dark"
+  >
+    <img
+      alt="logo"
+      height="50px"
+      src="pokemon_logo.png"
+      width="180px"
+    />
+    <button
+      class="navbar-toggler"
+      data-target="#navbarCollapse"
+      data-toggle="collapse"
+      type="button"
+    >
+      <span
+        class="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      class="collapse navbar-collapse"
+      id="navbarCollapse"
+    >
+      <form
+        class="form-inline ml-auto"
+      >
+        <input
+          class="form-control mr-sm-2"
+          placeholder="Search"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-outline-light"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

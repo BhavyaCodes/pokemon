@@ -11,7 +11,11 @@ function PokemonType({ type }) {
   if (!type) {
     return null;
   }
-  return <span className={getClassName()}>{type}</span>;
+  return (
+    <span data-testid={`pokemon-type-${type}`} className={getClassName()}>
+      {type}
+    </span>
+  );
 }
 
 export default PokemonType;

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders PokeCard component without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="col mb-4"
+  >
+    <div
+      class="card"
+      tabindex="0"
+    >
+      <img
+        alt="Mock Pokemon Name"
+        class="card-img-top"
+        src="mock-url"
+      />
+      <div
+        class="card-body"
+      >
+        <h5
+          class="card-title text-center"
+        >
+          Mock Pokemon Name
+        </h5>
+        <p
+          class="card-text text-center"
+        >
+          <span
+            class="badge badge-pill badge-info mx-1"
+            data-testid="pokemon-type-mock type 1"
+          >
+            mock type 1
+          </span>
+          <span
+            class="badge badge-pill badge-info mx-1"
+            data-testid="pokemon-type-mock type 2"
+          >
+            mock type 2
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders PokeCard component without types if not passed 1`] = `
+<DocumentFragment>
+  <div
+    class="col mb-4"
+  >
+    <div
+      class="card"
+      tabindex="0"
+    >
+      <img
+        alt="Mock Pokemon Name"
+        class="card-img-top"
+        src="mock-url"
+      />
+      <div
+        class="card-body"
+      >
+        <h5
+          class="card-title text-center"
+        >
+          Mock Pokemon Name
+        </h5>
+        <p
+          class="card-text text-center"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
