@@ -208,5 +208,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
     "weight": 30,
     "types": ["electric"]
+  },
+  {
+    "id": 13,
+    "name": "weedle",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+    "weight": 32,
+    "types": ["bug", "poison"]
   }
 ]
