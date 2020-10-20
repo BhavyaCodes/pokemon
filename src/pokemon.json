@@ -208,5 +208,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
     "weight": 30,
     "types": ["electric"]
+  },
+  {
+    "id": 657,
+    "name": "Frogadier",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/657.png",
+    "weight": 109,
+    "types": ["water"]
   }
 ]
