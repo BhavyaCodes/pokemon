@@ -215,5 +215,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
     "weight": 32,
     "types": ["bug", "poison"]
-  }
+ },
+ {
+    "id": 657,
+    "name": "Frogadier",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/657.png",
+    "weight": 109,
+    "types": ["water"]
+ }
 ]
