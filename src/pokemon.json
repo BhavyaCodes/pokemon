@@ -215,5 +215,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/657.png",
     "weight": 109,
     "types": ["water"]
+  },
+  {
+    "id": 39,
+    "name": "jigglypuff",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "weight": 55,
+    "types": ["fairy"]
   }
 ]
