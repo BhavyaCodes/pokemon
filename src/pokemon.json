@@ -215,5 +215,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/657.png",
     "weight": 109,
     "types": ["water"]
+  },
+  {
+    "id": 66,
+    "name": "Machop",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+    "weight": 195,
+    "types": ["fighting"]
   }
 ]
