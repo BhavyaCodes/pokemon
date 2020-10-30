@@ -215,5 +215,26 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/657.png",
     "weight": 109,
     "types": ["water"]
+  },
+  {
+    "id": 147,
+    "name": "dratini",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+    "weight": 3,
+    "types": ["dragon"]
+  },
+  {
+    "id": 148,
+    "name": "dragonair",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+    "weight": 16,
+    "types": ["dragon"]
+  },
+  {
+    "id": 149,
+    "name": "dragonite",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+    "weight": 210,
+    "types": ["dragon", "flying"]
   }
 ]
