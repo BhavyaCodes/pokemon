@@ -218,9 +218,16 @@
   },
   {
     "id": 147,
-    "name": "Frogadier",
+    "name": "dratini",
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
     "weight": 3,
+    "types": ["dragon"]
+  },
+  {
+    "id": 148,
+    "name": "Dragonair",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+    "weight": 16,
     "types": ["dragon"]
   }
 ]
