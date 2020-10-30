@@ -225,9 +225,16 @@
   },
   {
     "id": 148,
-    "name": "Dragonair",
+    "name": "dragonair",
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
     "weight": 16,
     "types": ["dragon"]
+  },
+  {
+    "id": 149,
+    "name": "dragonite",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+    "weight": 210,
+    "types": ["dragon", "flying"]
   }
 ]
