@@ -215,5 +215,12 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/657.png",
     "weight": 109,
     "types": ["water"]
+  },
+  {
+    "id": 10,
+    "name": "Caterpie",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+    "weight": 29,
+    "types": ["bug"]
   }
 ]
