@@ -215,5 +215,19 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/657.png",
     "weight": 109,
     "types": ["water"]
+  },
+  {
+    "id": 353,
+    "name": "shuppet",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/353.png",
+    "weight": 23,
+    "types": ["ghost"]
+  },
+  {
+    "id": 354,
+    "name": "banette",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/354.png",
+    "weight": 125,
+    "types": ["ghost"]
   }
 ]
