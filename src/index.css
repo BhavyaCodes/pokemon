@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(26, 26, 26);
 }
 
 .card {
@@ -24,5 +24,9 @@ body{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.input-large {
+  width: auto !important;
 }
 

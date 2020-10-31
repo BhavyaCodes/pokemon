@@ -26,20 +26,14 @@ exports[`renders Header component without crashing 1`] = `
       id="navbarCollapse"
     >
       <form
-        class="form-inline ml-auto"
+        class="col-lg-3 form-inline ml-auto"
       >
         <input
-          class="form-control mr-sm-2"
+          class="form-control input-large"
           placeholder="Search"
           type="text"
           value=""
         />
-        <button
-          class="btn btn-outline-light"
-          type="submit"
-        >
-          Search
-        </button>
       </form>
     </div>
   </nav>

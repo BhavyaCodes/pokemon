@@ -16,17 +16,14 @@ function Header({ searchQuery, setSearchQuery }) {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarCollapse">
-        <form className="form-inline ml-auto">
+        <form className="col-md-6 col-lg-3 form-inline ml-auto">
           <input
             type="text"
-            className="form-control mr-sm-2"
+            className="form-control input-large"
             placeholder="Search"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
-          <button type="submit" className="btn btn-outline-light">
-            Search
-          </button>
         </form>
       </div>
     </nav>
