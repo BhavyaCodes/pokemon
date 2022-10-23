@@ -215,5 +215,40 @@
     "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/657.png",
     "weight": 109,
     "types": ["water"]
+  },
+  {
+    "id": 359,
+    "name": "absol",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
+    "weight": 470,
+    "types": ["dark"]
+  },
+  {
+    "id": 459,
+    "name": "snover",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
+    "weight": 505,
+    "types": ["grass", "ice"]
+  },
+  {
+    "id": 460,
+    "name": "abomasnow",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
+    "weight": 1355,
+    "types": ["grass", "ice"]
+  },
+  {
+    "id": 64,
+    "name": "kadabra",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+    "weight": 565,
+    "types": ["psychic"]
+  },
+  {
+    "id": 65,
+    "name": "alakazam",
+    "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+    "weight": 480,
+    "types": ["psychic"]
   }
 ]
