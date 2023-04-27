@@ -1,0 +1,10 @@
+{
+  "name": "pokemon",
+  "description": "pokemon",
+  "website": "https://github.com/Juggernaut9/pokemon",
+  "buildpacks": [
+    {
+      "url": "mars/create-react-app"
+    }
+  ]
+}
