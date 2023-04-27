@@ -1,10 +1,13 @@
 import React from "react";
+import "../assets/css/headerStyle.css";
 import logo from "../assets/pokemon_logo.png";
 
 function Header({ searchQuery, setSearchQuery }) {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-      <img src={logo} alt="logo" width="180px" height="50px" />
+      <a href="/">
+        <img src={logo} alt="logo" width="180px" height="50px" />
+      </a>
 
       <button
         type="button"
@@ -16,17 +19,16 @@ function Header({ searchQuery, setSearchQuery }) {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarCollapse">
-        <form className="form-inline ml-auto">
-          <input
-            type="text"
-            className="form-control mr-sm-2"
-            placeholder="Search"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-          <button type="submit" className="btn btn-outline-light">
-            Search
-          </button>
+        <form className="form-inline ml-auto search-bar">
+          <div class="input-group ml-auto">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+          </div>
         </form>
       </div>
     </nav>
