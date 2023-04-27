@@ -11,9 +11,10 @@ function PokeCard({ pokemon }) {
   };
 
   return (
-    <div className="col mb-4">
+    <div className="gridbox col mb-4">
       <div className="card" tabIndex={0}>
         <img
+          // style={{'height':'3rem','width':'10rem'}}
           src={pokemon.imageUrl}
           className="card-img-top"
           alt={pokemon.name}

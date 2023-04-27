@@ -13,16 +13,29 @@ body{
     0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   cursor: pointer;
   text-transform: capitalize;
+
+  border-radius: 1rem;
+  outline-style: none;
+  background: linear-gradient( to right, rgba(86, 200, 231, 0.9),rgba(245, 50, 50, 0.9));
+
+}
+
+.card:hover{
+  transform: scale(1.05);
+
+}
+.gridbox {
+  padding: 3rem;
 }
 
 .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  color: black;
+  font: bold;
+  background-color: black;
+  background: linear-gradient( to left, rgba(86, 200, 231, 0.8),rgba(245, 50, 50, 0.76));
+  transition: .5s;
 }
-
-.card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.card:active{
+  transition-delay: .1ms;
+  border: 5px solid rgb(3, 0, 10);
 }
-
